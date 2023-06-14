@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686775319400,
+  "timestamp": 1686778106226,
   "index": "/pwapp/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/pwapp/favicon.ico",
         "/pwapp/index.html",
-        "/pwapp/main.8263faa057c1ed81.js",
+        "/pwapp/main.e617ef08f59d99fb.js",
         "/pwapp/manifest.webmanifest",
         "/pwapp/polyfills.dc27fbbee04d042e.js",
         "/pwapp/runtime.49d022a095286509.js",
@@ -41,7 +41,24 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "api-cache",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/posts",
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/albums",
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/todos"
+      ],
+      "strategy": "freshness",
+      "maxSize": 131072,
+      "maxAge": 86400000,
+      "timeoutMs": 15000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/pwapp/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
     "/pwapp/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
@@ -52,9 +69,9 @@
     "/pwapp/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/pwapp/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/pwapp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/pwapp/index.html": "56a9536653a5756e12a3ec8f46fe90f3b8595a46",
-    "/pwapp/main.8263faa057c1ed81.js": "22490d2b06931dae6088e5f612f0bf4b1b39007b",
-    "/pwapp/manifest.webmanifest": "1dabb409cdd759976a42b3af7235446bde8d320c",
+    "/pwapp/index.html": "1d932f69d96aa87b825192793f49d808d2c3acc3",
+    "/pwapp/main.e617ef08f59d99fb.js": "4e83ae50a4179936306cd12d7d73f0120a5641cc",
+    "/pwapp/manifest.webmanifest": "66bee90793d4a7525e92273beee9170d8828fa7b",
     "/pwapp/polyfills.dc27fbbee04d042e.js": "f3a1a2eea9c2312b48d9b659c758c10a1571dcb1",
     "/pwapp/runtime.49d022a095286509.js": "7e95c7ed399b7e165d3ddc76d53982ff5e43285a",
     "/pwapp/styles.94641cce07ba3410.css": "083582b1a0a686276a559792f25826b998b92b85"
