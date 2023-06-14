@@ -1,0 +1,31 @@
+.signals-example {
+  padding: 0 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__computed-tracked {
+    margin-top: 16px;
+  }
+
+  &__computed-tracked,
+  &__computed-untracked {
+    width: 100%;
+    text-align: end;
+    margin-right: 240px;
+  }
+
+  &__change-btn {
+    width: 80px;
+    font-size: 12px;
+    height: 18px;
+    cursor: pointer;
+    margin: 8px;
+  }
+
+  &__observable-to-signal {
+    height: 250px;
+    overflow: auto;
+  }
+}

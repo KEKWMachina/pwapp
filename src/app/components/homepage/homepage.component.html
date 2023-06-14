@@ -1,0 +1,34 @@
+<div class="homepage-header shadowed">
+  <form [formGroup]="loginFormGroup" (ngSubmit)="onLoginFormSubmit()">
+    <input
+      class="homepage-header__input"
+      placeholder="Username"
+      formControlName="name"
+      type="text"
+    />
+    <input
+      class="homepage-header__input"
+      placeholder="Password"
+      formControlName="password"
+      type="password"
+    />
+    <button i18n class="homepage-header__login-btn" type="submit">Login</button>
+  </form>
+  <div i18n class="homepage-header__login-status">
+    Logged In: {{ isAuthenticatedUser() }}
+  </div>
+</div>
+
+<div class="homepage-navingation">
+  <button i18n class="homepage-navingation__button" (click)="goToSignalsExample()">
+    Signals Example
+  </button>
+  <button i18n class="homepage-navingation__button" (click)="goToResolvers()">
+    Resolver Example
+  </button>
+  <button i18n class="homepage-navingation__button" (click)="goToAlbums()">
+    Router Reuse Example
+  </button>
+</div>
+
+<router-outlet></router-outlet>

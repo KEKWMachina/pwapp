@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2454050363478003966" datatype="html">
+        <source>Login</source>
+        <target>Le Login</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/homepage/homepage.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1788370735305036356" datatype="html">
+        <source> Logged In: <x id="INTERPOLATION" equiv-text="{{ isAuthenticatedUser() }}"/> </source>
+        <target> Le Logged In: <x id="INTERPOLATION" equiv-text="{{ isAuthenticatedUser() }}"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/homepage/homepage.component.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4068558749023279589" datatype="html">
+        <source> Signals Example </source>
+        <target>Le Signals Example</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/homepage/homepage.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7337635225668653841" datatype="html">
+        <source> Resolver Example </source>
+        <target>Le Resolver Example</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/homepage/homepage.component.html</context>
+          <context context-type="linenumber">26,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1988588463575947920" datatype="html">
+        <source> Router Reuse Example </source>
+        <target>Le Reuse Example</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/homepage/homepage.component.html</context>
+          <context context-type="linenumber">29,31</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

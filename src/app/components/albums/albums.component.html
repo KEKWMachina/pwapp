@@ -1,0 +1,13 @@
+<div class="albums-example">
+  <p>Albums List</p>
+  <div class="albums-example__list">
+    <div
+      class="albums-example__list-item"
+      *ngFor="let album of albums()"
+      (click)="selectAlbum(album.id)"
+    >
+      <span>id: {{ album.id }} -</span>
+      <span>{{ album.title }}</span>
+    </div>
+  </div>
+</div>

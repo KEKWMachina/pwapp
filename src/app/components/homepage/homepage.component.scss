@@ -1,0 +1,40 @@
+.homepage-header {
+    height: 160px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__input {
+        display: block;
+        height: 24px;
+        margin-bottom: 8px;
+    }
+
+    &__login-btn {
+        width: 100%;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    &__login-status {
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+.homepage-navingation {
+    margin: 12px 0 12px 0;
+    display: flex;
+    justify-content: space-around;
+
+    &__button {
+        height: 32px;
+        width: 120px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+    }
+}

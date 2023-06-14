@@ -1,0 +1,24 @@
+<div class="signals-example">
+  <div class="signals-example__user">Original: {{ user() }}</div>
+  <div class="signals-example__name">Original: {{ name() }}</div>
+  <div class="signals-example__computed-tracked">
+    Computed tracked: {{ trackedComputed() }}
+  </div>
+  <div class="signals-example__computed-untracked">
+    Computed untracked User: {{ untrackedComputed() }}
+  </div>
+  <div class="signals-example__change-container">
+    <button class="signals-example__change-btn" (click)="changeName()">Change Name</button>
+    <button class="signals-example__change-btn" (click)="changeUser()">Change User</button>
+  </div>
+  <div class="signals-example__change-container">
+    <button class="signals-example__change-btn" (click)="setName()">Set Name</button>
+    <button class="signals-example__change-btn" (click)="setUser()">Set User</button>
+  </div>
+
+  <div class="signals-example__observable-to-signal">
+    <div *ngFor="let post of postsSignal()">
+        <div>{{ post.title }}</div>
+    </div>
+  </div>
+</div>
